@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_QyozUBxQEee6Z_EyhqtekQ" name="national_statistics_postcode_lookup" dataPackage="_QyozURxQEee6Z_EyhqtekQ" Server="Localhost 127.0.0.1" FilePath="/home/rakesh/Downloads/National_Statistics_Postcode_Lookup_UK.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_QyozURxQEee6Z_EyhqtekQ" name="default" dataManager="_QyozUBxQEee6Z_EyhqtekQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_QyozUhxQEee6Z_EyhqtekQ" id="_587m4BxPEee6Z_EyhqtekQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozUxxQEee6Z_EyhqtekQ" label="Postcode_1" length="300" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozVBxQEee6Z_EyhqtekQ" label="Postcode_2" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozVRxQEee6Z_EyhqtekQ" label="Postcode_3" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozVhxQEee6Z_EyhqtekQ" label="Date_Introduced" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozVxxQEee6Z_EyhqtekQ" label="User_Type" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozWBxQEee6Z_EyhqtekQ" label="Easting" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozWRxQEee6Z_EyhqtekQ" label="Northing" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozWhxQEee6Z_EyhqtekQ" label="Positional_Quality" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozWxxQEee6Z_EyhqtekQ" label="County_Code" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozXBxQEee6Z_EyhqtekQ" label="County_Name" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozXRxQEee6Z_EyhqtekQ" label="Local_Authority_Code" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozXhxQEee6Z_EyhqtekQ" label="Local_Authority_Name" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozXxxQEee6Z_EyhqtekQ" label="Ward_Code" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozYBxQEee6Z_EyhqtekQ" label="Ward_Name" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozYRxQEee6Z_EyhqtekQ" label="Country_Code" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozYhxQEee6Z_EyhqtekQ" label="Country_Name" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozYxxQEee6Z_EyhqtekQ" label="Region_Code" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozZBxQEee6Z_EyhqtekQ" label="Region_Name" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozZRxQEee6Z_EyhqtekQ" label="Parliamentary_Constituency_Code" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozZhxQEee6Z_EyhqtekQ" label="Parliamentary_Constituency_Name" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozZxxQEee6Z_EyhqtekQ" label="European_Electoral_Region_Code" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozaBxQEee6Z_EyhqtekQ" label="European_Electoral_Region_Name" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozaRxQEee6Z_EyhqtekQ" label="Primary_Care_Trust_Code" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozahxQEee6Z_EyhqtekQ" label="Primary_Care_Trust_Name" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozaxxQEee6Z_EyhqtekQ" label="Lower_Super_Output_Area_Code" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozbBxQEee6Z_EyhqtekQ" label="Lower_Super_Output_Area_Name" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozbRxQEee6Z_EyhqtekQ" label="Middle_Super_Output_Area_Code" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozbhxQEee6Z_EyhqtekQ" label="Middle_Super_Output_Area_Name" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozbxxQEee6Z_EyhqtekQ" label="Output_Area_Classification_Code" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozcBxQEee6Z_EyhqtekQ" label="Output_Area_Classification_Name" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozcRxQEee6Z_EyhqtekQ" label="Longitude" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozchxQEee6Z_EyhqtekQ" label="Latitude" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozcxxQEee6Z_EyhqtekQ" label="Spatial_Accuracy" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozdBxQEee6Z_EyhqtekQ" label="Last_Uploaded" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozdRxQEee6Z_EyhqtekQ" label="Location" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QyozdhxQEee6Z_EyhqtekQ" label="Socrata_ID" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
